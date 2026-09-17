@@ -111,13 +111,13 @@ EMI-Predict-AI/
 ## Running Locally
 
 ```bash
-git clone https://github.com/Mohit-1307/Loan-Eligibility-and-safe-EMI-Prediction
+git clone https://github.com/Mohit-1307/Loan-Eligibility-and-Safe-EMI-Prediction
 cd Loan-Eligibility-and-Safe-EMI-Prediction
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
-The app expects the trained artifacts (`final_classifier.joblib`, `final_regressor.joblib`, `scaler.joblib`, `label_encoder.joblib`, `feature_names.joblib`) inside `models/`. These are produced by running `notebooks/EMIPredict_AI_Model_Development.ipynb` end-to-end, or can be used as already provided in this repo.
+The app expects the trained artifacts (`final_classifier.joblib`, `final_regressor.joblib`, `scaler.joblib`, `label_encoder.joblib`, `feature_names.joblib`) inside `models/`. These are produced by running `notebooks/loan-eligibility-and-safe-emi-prediction.ipynb` end-to-end, or can be used as already provided in this repo.
 
 ---
 
