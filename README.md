@@ -6,7 +6,7 @@
 
 An end-to-end supervised learning project that predicts a loan applicant's EMI eligibility and their maximum safe monthly EMI — combining engineered financial ratios with tuned classification and regression models, deployed as an interactive Streamlit app.
 
-**[Live App →](https://loan-eligibility-and-emi-prediction-ai.streamlit.app)**
+**[Live App →](https://loan-eligibility-and-safe-emi-prediction.streamlit.app)**
 
 </div>
 
@@ -111,8 +111,8 @@ EMI-Predict-AI/
 ## Running Locally
 
 ```bash
-git clone https://github.com/Mohit-1307/Loan-Eligibility-and-EMI-Prediction-AI
-cd Loan-Eligibility-and-EMI-Prediction-AI
+git clone https://github.com/Mohit-1307/Loan-Eligibility-and-safe-EMI-Prediction
+cd Loan-Eligibility-and-Safe-EMI-Prediction
 pip install -r requirements.txt
 streamlit run Home.py
 ```
